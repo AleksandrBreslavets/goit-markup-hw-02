@@ -101,6 +101,10 @@ body{
     letter-spacing: 0.02em;
     color:var(--slate-color);
 }
+.header-contacts:hover,
+.header-contacts-focus{
+    color: var(--accent-color);
+}
 /* Hero */
 .hero{
 background-color: var(--main-color);
@@ -116,9 +120,8 @@ background-color: var(--main-color);
     width: 170px;
     height: 51px;
 }
-.hero-btn:hover,
-.hero-btn:focus{
-    background-color: var(--dark-blue-color);
+.hero-btn:active{
+background-color: var(--dark-blue-color);
 }
 /* Section-advantages */
 /* .advantages{
